@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <style>* {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        text-align: center;
+    }
+    .wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    header {
+        height: 100px;
+        background: #262626;
+        width: 100%;
+        z-index: 10;
+        position: fixed;
+    }
+    .logo {
+        width: 30%;
+        float: left;
+        line-height: 100px;
+    }
+    .logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: poppins;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    nav {
+        float: right;
+        line-height: 100px;
+    }
+    nav a {
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+        font-size: 14px;
+        margin: 0 10px;
+        color: #fff;
+    }
+    .banner-area {
+        width: 100%;
+        height: 500px;
+        position: fixed;
+        top: 100px;
+        background-image: url(throw.png);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .banner-area h2 {
+        padding-top: 8%;
+        font-size: 70px;
+        font-family: poppins;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .content-area {
+        width: 100%;
+        position: relative;
+        top: 450px;
+        background: #454545;
+        height: 1700px;
+    }
+    .content-area h2 {
+        font-family: poppins;
+        letter-spacing: 4px;
+        padding-top: 30px;
+        font-size: 40px;
+        margin: 0;
+    }
+        .content-area h4
+        {
+            padding: 2% 0px;
+            color:white;
+            font-size:20px;
+        }
+         h1
+        {
+            color:#a550cb;
+        }
+        .content-area h5
+        {
+            font-size:15px;
+            color:hotpink;
+        }
+    .content-area p {
+        padding: 2% 0px;
+        font-family: poppins;
+        line-height: 30px;
+    }
+                .button1
+        {
+         background: #262626;
+            border:none;
+            width:90px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button1:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button2
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button2:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button3
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button3:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button4
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button4:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button5
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button5:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button6
+        {
+         background: #262626;
+            border:none;
+            width:120px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:85px;
+            letter-spacing:4px;
+
+        }
+        .button6:hover
+        {
+            height:120px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-10px;
+            outline:none;
+            
+            
+        }
+        .button7
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button7:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+         .gradient
+        {
+            background-color: #CA4246;
+    background-image: linear-gradient(#c31432,#240b36);
+    background-size: 100%;
+    background-repeat: repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+        }
+        
+        
+    </style>
+    
+	<meta charset="UTF-8">
+	<title>GROUP 14</title>
+	
+</head>
+<body>
+	<div class="box-area">
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<a href="#">1906415</a>
+				</div>
+				    <button class="button4 " onclick="window.location.href='/homepage.html'">HOME</button>
+					<button class="button1 "  onclick="window.location.href='/trypage.html'">TRY</button>
+				    <button class="button2 " onclick="window.location.href='/catch.html'">CATCH</button>
+                    <button class="button3 " onclick="window.location.href='/finallyfinal.html'">FINALLY</button>
+                    <button class="button5 " onclick="window.location.href='/throws.html'">THROWS</button>
+                    <button class="button6 " onclick="window.location.href='/userdefined page.html'">USER DEFINED</button>
+                    
+			</div>
+		</header>
+		<div class="banner-area">
+			<h2 class="gradient">THROW</h2>
+		</div>
+        <div class="content-area">
+			<div class="wrapper">
+				
+				<p><h4>The throw keyword in Java is used to explicitly throw an exception from a method or any block of code. We can throw either checked or unchecked exception. The throw keyword is mainly used to throw custom exceptions. 
+
+Syntax: 
+
+throw Instance
+Example:
+throw new ArithmeticException("/ by zero");
+                But this exception i.e, Instance must be of type Throwable or a subclass of Throwable. For example Exception is a sub-class of Throwable and user defined exceptions typically extend Exception class. Unlike C++, data types such as int, char, floats or non-throwable classes cannot be used as exceptions.
+
+
+                    
+                    </h4></p>
+                <P><pre>
+ 
+<h1>Java program that demonstrates the use of throw
+Example 1</h1>
+<h5> class ThrowExcep
+{
+    static void fun()
+    {
+        try
+        {
+            throw new NullPointerException("demo");
+        }
+        catch(NullPointerException e)
+        {
+            System.out.println("Caught inside fun().");
+            throw e; // rethrowing the exception
+        }
+    }
+ 
+    public static void main(String args[])
+    {
+        try
+        {
+            fun();
+        }
+        catch(NullPointerException e)
+        {
+            System.out.println("Caught in main.");
+        }
+    }
+}
+
+
+Output: 
+
+Caught inside fun().
+Caught in main.</h5></pre></P>
+                
+                <p><pre><h1>
+Example 2</h1>
+<h5>class Test
+{
+    public static void main(String[] args)
+    {
+        System.out.println(1/0);
+    }
+}
+
+
+Output: 
+
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+</h5></pre></p>
+ <P> <h4> The flow of execution of the program stops immediately after the throw statement is executed and the nearest enclosing try block is checked to see if it has a catch statement that matches the type of exception. If it finds a match, controlled is transferred to that statement otherwise next enclosing try block is checked and so on. If no matching catch is found then the default exception handler will halt the program</h4></P>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

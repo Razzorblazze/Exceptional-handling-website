@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <style>* {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        text-align: relative;
+    }
+    .wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    header {
+        height: 100px;
+        background: #262626;
+        width: 100%;
+        z-index: 10;
+        position: fixed;
+    }
+    .logo {
+        width: 30%;
+        float: left;
+        line-height: 100px;
+    }
+    .logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: poppins;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    nav {
+        float: right;
+        line-height: 100px;
+    }
+    nav a {
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+        font-size: 14px;
+        margin: 0 10px;
+        color: #fff;
+    }
+    .banner-area {
+        width: 100%;
+        height: 500px;
+        position: fixed;
+        top: 100px;
+        background-image: url(brown-background-dark-black-chocolate-shade-vector-21714378.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .banner-area h2 {
+        padding-top: 8%;
+        font-size: 70px;
+        font-family: poppins;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .content-area {
+        width: 100%;
+        position: relative;
+        top: 450px;
+        background: #454545;
+        height: 3500px;
+    }
+    .content-area h2 {
+        font-family: poppins;
+        letter-spacing: 4px;
+        padding-top: 30px;
+        font-size: 40px;
+        margin: 0;
+    }
+        .content-area h4
+        {
+            padding: 2% 0px;
+            color:white;
+        }
+         h1
+        {
+            color:white;
+        }
+    .content-area p {
+        padding: 2% 0px;
+        font-family: poppins;
+        line-height: 30px;
+    }
+                .button1
+        {
+         background: #262626;
+            border:none;
+            width:90px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button1:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button2
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button2:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button3
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button3:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button4
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button4:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button5
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button5:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+        .button6
+        {
+         background: #262626;
+            border:none;
+            width:120px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:85px;
+            letter-spacing:4px;
+
+        }
+        .button6:hover
+        {
+            height:120px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-10px;
+            outline:none;
+            
+            
+        }
+        .button7
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button7:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+         .gradient
+        {
+            background-color: #CA4246;
+    background-image: linear-gradient(#c31432,#240b36);
+    background-size: 100%;
+    background-repeat: repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+        }
+         .first{
+     color: #ffc300;
+     font-size: 20px;
+     font-family: Century Gothic;
+ }
+ .second{
+     color: #ff9a5b;
+     font-size: 20px;
+     font-family: Candara;
+ }
+ .img{
+     border: 5px solid #555;
+ }
+ .third{
+     color: #ffb3ff;
+     font-size: 20px;
+     font-family: Footlight MT Light;
+ }
+ .fourth{
+     color: #adebad;
+     font-size: 20px;
+     font-family: Berlin Sans FB;
+ }
+ .fifth{
+     color: #b3d9ff;
+     font-size: 20px;
+     font-family: Century Gothic;
+ }
+ .sixth{
+     color: #ffe680;
+     font-size: 20px;
+     font-family: Lucida Sans; 
+ }
+ .seventh{
+     color: #99ffb3;
+     font-size: 50px;
+     font-family: Algerian;
+ }
+        
+        
+    </style>
+    
+	<meta charset="UTF-8">
+	<title>GROUP 14</title>
+    
+	
+</head>
+<body>
+	<div class="box-area">
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<a href="#">1906116</a>
+				</div>
+				    <button class="button4 " onclick="window.location.href='/homepage.html'">HOME</button>
+					<button class="button1 "  onclick="window.location.href='/trypage.html'">TRY</button>
+				    <button class="button2 " onclick="window.location.href='/finallyfinal.html'">FINALLY</button>
+                    <button class="button3 " onclick="window.location.href='/throw.html'">THROW</button>
+                    <button class="button5 " onclick="window.location.href='/throws.html'">THROWS</button>
+                    <button class="button6 " onclick="window.location.href='/userdefined page.html'">USER DEFINED</button>
+                    
+			</div>
+		</header>
+		<div class="banner-area">
+			<h2 class="zero" align="center" style="color:#66ccff;font-size:80px;font-family:Algerian;">CATCH BLOCK</h2>
+		</div>
+        <div class="content-area">
+			<div class="wrapper">
+				
+				<h3 align="left" style="color: #17a589; text-decoration: underline; font-size: 30px;">Introduction</h3>
+ <p class="first" style="font-style: Candara;">A catch block is a group of statements, enclosed in braces { } which are used to handle<br>a specific
+                  exception that has been thrown. A <i>catch</i> block should be placed immediately<br>after
+                  the <i>try</i> block. When an exception occurs in a <i>try</i> block, program control is<br>transferred
+                  to the suitable <i>catch</i> block. A <i>catch</i> block is specified by the keyword<br><b>catch</b>
+                  followed by a single argument within parenthesis ( ).<br> 
+</p> 
+<p align="center"><img src="chart.png" width="350" height="350"/>
+                  <img src="diagram.png" width="350" height="350"/></p><br>
+
+<h3 align="center" style="color: #33cc33; text-decoration: underline; font-size: 30px;">Syntax</h3>
+<p class="second" align="center">The general syntax for a catch block is<br>
+                  <b>try</b>{<br>
+                  <i>//code that may throw exception</i><br>
+                  }<br>
+                  <b>catch</b>(ExceptionType1 e) {<br>
+                  <i>//exception handler for ExceptionType1</i><br>
+                  }<br>
+                  <b>catch</b>(ExceptionType2 e) {<br>
+                  <i>//exception handler for ExceptionType2</i><br>
+                  }<br>
+</p>
+
+<h3 align="center" style="color: #ff6666; text-decoration: underline; font-size: 30px;">An Example :</h3>
+<p class="third" align="center">class<b>trycatch</b>{<br>
+                     public static void main(String args[]) {<br>
+                     int x=50;<br>
+                     int y=0;<br>
+                     int z;<br>
+                     <b>try</b>{<br>
+                     z = x/y;
+                     System.out.println("z = "+z);<br>
+                     }<br>
+                     <b>catch</b>(ArithmeticException e) {<br>
+                     System.out.println(e);<br>
+                     System.out.println("Divide by Zero");<br>
+                     }<br>
+                     System.out.println("End of the Program");<br>
+                     }<br>
+                     }<br>  
+</p>
+
+<h5 align="left" style="color: #ffff00; text-decoration: underline; font-size: 25px;">Explaination to the above Program:</h5>
+<p class="fourth">In the above program the class name is <i>trycatch</i> and it has three integer variables <b>x, y, z</b>. Inside
+                  the <i>try </i>statement, an attemptof divide by zero is made. It creates an exception object of type
+                  <b>ArithmeticException</b>and throws it out. The statement after the exception will not be executed and the
+                  value of <b>z</b> will not be displayed.The control transfers to the <i>catch</i> statement directly.Catch
+                  block catches the exception and puts in the object e. While printing the value of e it prints the
+                  description of the exception. The the subsequent lines are executed, as the output <b>"Divide by Zero"</b>
+                  and <b>"End of the Program"</b> is displayed.
+</p>
+
+<h5 align="center" style="color: #136b82; text-decoration: underline; font-size: 25px;">OUTPUT</h5>
+<p align="center"><img src="eg.png" width="200" height="200"/>
+
+<h3 align="left" style="color: #ff5c33; text-decoration: underline; font-size: 30px;">Multiple Catch Blocks</h3>
+<p class="fifth" style="font-style: Candara;">In some cases, more than one exception may occur in a single program. To handle
+                                              this type of situation,<br>two or more <i>catch</i> statements can be used
+                                              in a program. Each <i>catch</i> will catch a different type of<br>exception.
+                                              When an exception is thrown, each statement is inspected in order and the
+                                              first one<br>whose type matches that of the exception is executed. After
+                                              one <i>catch</i> statement<br>executes, the others are bypassed and the execution
+                                              continues after the <i>try-catch</i> <br>block.
+</p>
+
+<h5 align="center" style="color: #e600e6; text-decoration: underline; font-size: 25px;">An Example:</h5>
+<p align="center"><img src="eg2.png" width="500" height="500"/>
+
+<h5 align="left" style="color: #a3c2c2; text-decoration: underline; font-size: 25px;">Explaination to the above Program:</h5>
+<p class="sixth">In the above program the class name is <i>MultipleCatch.</i>The code written in<i>try</i> block will cause
+                 either <b>'Divide by Zero' </b> or <b> 'Array Index out of Bounds' </b>.If any one of these exceptions occurs it
+                 will be caught in the appropriate catch statement and action will be taken.Depending upon the type of
+                 exception object thrown, only one of the catch statements will be executed.If the exception throw does not 
+                 match with the exception object written in the <i>catch</i>block the program will be terminated. In this
+                 program there are three integer variables <b>a, b, c </b>.If the value of the input is 0 then the divide by
+                 zero exception will occur at statement 1 else array index out of bounds will occur in statement 2. The the
+                 exceptions are caught by the appropriate <i>catch</i> clause.
+</p>
+<br>
+
+<p class="seventh" align="center">Thank You!</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

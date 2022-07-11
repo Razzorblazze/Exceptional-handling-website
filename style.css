@@ -1,0 +1,54 @@
+*{
+    margin: 1.5%;
+    padding: 0;
+    
+ }
+ .container{
+     width: 100%;
+     height: 100%;
+     background: #42455a 
+ }
+ .zero{
+     color: #66ccff;
+     font-size: 80px;
+     font-family: Algerian;
+ }
+ .first{
+     color: #ffc300;
+     font-size: 20px;
+     font-family: Century Gothic;
+ }
+ .second{
+     color: #ff9a5b;
+     font-size: 20px;
+     font-family: Candara;
+ }
+ .img{
+     border: 5px solid #555;
+ }
+ .third{
+     color: #ffb3ff;
+     font-size: 20px;
+     font-family: Footlight MT Light;
+ }
+ .fourth{
+     color: #adebad;
+     font-size: 20px;
+     font-family: Berlin Sans FB;
+ }
+ .fifth{
+     color: #b3d9ff;
+     font-size: 20px;
+     font-family: Century Gothic;
+ }
+ .sixth{
+     color: #ffe680;
+     font-size: 20px;
+     font-family: Lucida Sans; 
+ }
+ .seventh{
+     color: #99ffb3;
+     font-size: 50px;
+     font-family: Algerian;
+ }
+     

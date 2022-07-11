@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <style>* {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        text-align: center;
+    }
+    .wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    }
+    header {
+        height: 100px;
+        background: #262626;
+        width: 100%;
+        z-index: 10;
+        position: fixed;
+    }
+    .logo {
+        width: 30%;
+        float: left;
+        line-height: 100px;
+    }
+    .logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: poppins;
+        color: #fff;
+        letter-spacing: 5px;
+    }
+    nav {
+        float: right;
+        line-height: 100px;
+    }
+    nav a {
+        text-decoration: none;
+        font-family: poppins;
+        letter-spacing: 4px;
+        font-size: 14px;
+        margin: 0 10px;
+        color: #fff;
+    }
+    .banner-area {
+        width: 100%;
+        height: 500px;
+        position: fixed;
+        top: 100px;
+        background-image: url(https://wallpaperaccess.com/full/1251632.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    .banner-area h2 {
+        padding-top: 8%;
+        font-size: 70px;
+        font-family: poppins;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .content-area {
+        width: 100%;
+        position: relative;
+        top: 450px;
+        background: #454545;
+        height: 1650px;
+    }
+    .content-area h2 {
+        font-family: helvetica;
+        letter-spacing: 4px;
+        padding-top: 30px;
+        font-size: 40px;
+        margin: 0;
+    }
+        .content-area h4
+        {
+            padding: 2% 0px;
+            color:white;
+            font-size:20px;
+        }
+        .content-area h5
+        {
+            font-size:15px;
+            color:yellow;
+        }
+         h1
+        {
+            color:white;
+        }
+        p{
+            color:white;
+        }
+    .content-area p {
+        padding: 2% 0px;
+        font-family: poppins;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .button1
+        {
+         background: #262626;
+            border:none;
+            width:90px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button1:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button2
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button2:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button3
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button3:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button4
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button4:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button5
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button5:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+        }
+        .button6
+        {
+         background: #262626;
+            border:none;
+            width:120px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button6:hover
+        {
+            height:110px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-10px;
+            outline:none;
+            
+            
+        }
+        .button7
+        {
+         background: #262626;
+            border:none;
+            width:110px;
+            font-family:poppins;
+            font-size:15px;
+            color:white;
+            height:90px;
+            letter-spacing:4px;
+
+        }
+        .button7:hover
+        {
+            height:130px;
+            background-color: #ce90f5;
+             color: black;
+            transition-duration:0.5s;
+            color:#262626;
+            font-family:poppins;
+            border:none;
+            letter-spacing=6px;
+            text-align: center;
+            margin-top:-20px;
+            outline:none;
+            
+            
+        }
+         .gradient
+        {
+            background-color: #CA4246;
+    background-image: linear-gradient(#EDE574,#E1F5C4);
+    background-size: 100%;
+    background-repeat: repeat;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+        }
+        
+    </style>
+    
+	<meta charset="UTF-8">
+	<title>GROUP 14</title>
+	
+</head>
+<body>
+	<div class="box-area">
+		<header>
+			<div class="wrapper">
+				<div class="logo">
+					<a href="#">1906434</a>
+				</div>
+				
+					<button class="button1 "  onclick="window.location.href='/homepage.html'">HOME</button>
+                    <button class="button6 " onclick="window.location.href='/trypage.html'">TRY</button>
+				    <button class="button2 " onclick="window.location.href='/catch.html'">CATCH</button>
+                    <button class="button3 " onclick="window.location.href='/finallyfinal.html'">FINALLY</button>
+                    <button class="button4 " onclick="window.location.href='/throw.html'">THROW</button>
+                    <button class="button5 " onclick="window.location.href='/throws.html'">THROWS</button>
+                    
+			</div>
+				
+		</header>
+		<div class="banner-area">
+			<h2 class="gradient">USER DEFINED EXCPETIONS</h2>
+		</div>
+        <div class="content-area">
+			<div class="wrapper">
+				
+				<p><h4>Java provides us facility to create our own exceptions which are basically derived classes of Exception. For example MyException in below code extends the Exception class.
+
+                    We pass the string to the constructor of the super class- Exception which is obtained using “getMessage()” function on the object created.
+                    
+                    </h4></p>
+                <h5><P><pre>
+ // A Class that represents use-defined expception
+class MyException extends Exception
+{
+ public MyException(String s)
+{
+// Call constructor of parent Exception
+super(s);
+}
+}
+// A Class that uses above MyException
+public class Main
+{
+// Driver Program
+public static void main(String args[])
+{
+try
+{
+// Throw an object of user defined exception
+throw new MyException("ABCD");
+}
+catch (MyException ex)
+{
+System.out.println("Caught");
+// Print the message from MyException object
+System.out.println(ex.getMessage());
+}
+}
+}
+</pre></P></h5>
+                
+                   <P>Output: 
+                    Caught
+                   ABCD</P>
+                
+                <p class="w3-large">In the above code, constructor of MyException requires a string as its argument. The string is passed to parent class Exception’s constructor using super(). The constructor of Exception class can also be called without a parameter and call to super is not mandatory.</p>
+                <p><pre><h5>
+// A Class that represents use-defined expception
+class MyException extends Exception
+{
+                      
+}
+                      
+// A Class that uses above MyException
+public class setText
+{
+// Driver Program
+public static void main(String args[])
+{
+try
+{
+// Throw an object of user defined exception
+throw new MyException();
+}
+catch (MyException ex)
+{
+System.out.println("Caught");
+System.out.println(ex.getMessage());
+}
+}
+}
+</h5></pre></p>
+                <P>Output:
+
+
+
+                    Caught
+                    null</P>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
